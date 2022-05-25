@@ -23,7 +23,7 @@ export default function Index() {
     <div className="index">
       <div className="header">
       <div className="btn-container">
-          <button className="btn" onClick={clearPg}>Limpar</button>
+          <button className="btn" onClick={clear}>Limpar</button>
         <Link to="/" className="btn">
           Voltar
         </Link>
